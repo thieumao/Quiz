@@ -7,6 +7,7 @@ target 'Quiz' do
 
   # Pods for Quiz
   pod 'Firebase/Core'
+  pod 'Firebase/AdMob'
 
   target 'QuizTests' do
     inherit! :search_paths

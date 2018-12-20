@@ -52,10 +52,14 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
 
 DEPENDENCIES:
   - Firebase/AdMob
   - Firebase/Core
+  - SQLite.swift (~> 0.11.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -67,6 +71,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
@@ -77,7 +82,8 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
 
-PODFILE CHECKSUM: 66105a21e766e0241abe784e781f6b5eeb2b61cf
+PODFILE CHECKSUM: 6543d82f74d845b085bc5fcec585898645d09c03
 
 COCOAPODS: 1.5.3

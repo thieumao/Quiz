@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF31E4DD21CB858B00F02682 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF31E4DC21CB858B00F02682 /* Detail.storyboard */; };
+		CF31E4DF21CB85BB00F02682 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF31E4DE21CB85BB00F02682 /* DetailVC.swift */; };
+		CF31E4F521CB9F8E00F02682 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31E4F421CB9F8E00F02682 /* CoreData.framework */; };
+		CF31E4F721CB9F9500F02682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31E4F621CB9F9500F02682 /* UIKit.framework */; };
+		CF31E4F921CB9FA500F02682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31E4F821CB9FA500F02682 /* Foundation.framework */; };
 		CF7D68E921CA2D0E0057E5F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF7D68E821CA2D0E0057E5F3 /* GoogleService-Info.plist */; };
+		CFABA47721CBA493008EDE11 /* db in Resources */ = {isa = PBXBuildFile; fileRef = CFABA47621CBA493008EDE11 /* db */; };
 		CFBD4BC121CA03F900B3249A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4BC021CA03F900B3249A /* AppDelegate.swift */; };
 		CFBD4BC621CA03F900B3249A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD4BC421CA03F900B3249A /* Main.storyboard */; };
 		CFBD4BC921CA03F900B3249A /* Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4BC721CA03F900B3249A /* Quiz.xcdatamodeld */; };
@@ -49,7 +55,13 @@
 		4F329230A617A977DC63290F /* Pods-QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizUITests/Pods-QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
 		833515EF46935607A226FFBB /* Pods_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6729F4842251900AB3023A /* Pods_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF31E4DC21CB858B00F02682 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		CF31E4DE21CB85BB00F02682 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		CF31E4F421CB9F8E00F02682 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF31E4F621CB9F9500F02682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF31E4F821CB9FA500F02682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF7D68E821CA2D0E0057E5F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFABA47621CBA493008EDE11 /* db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db; sourceTree = SOURCE_ROOT; };
 		CFBD4BBD21CA03F900B3249A /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBD4BC021CA03F900B3249A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFBD4BC521CA03F900B3249A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF31E4F921CB9FA500F02682 /* Foundation.framework in Frameworks */,
+				CF31E4F721CB9F9500F02682 /* UIKit.framework in Frameworks */,
+				CF31E4F521CB9F8E00F02682 /* CoreData.framework in Frameworks */,
 				F91E73C203D8DAD11F20B99B /* Pods_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +117,9 @@
 		55A0A7D7E1A9572CA3C22E28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF31E4F821CB9FA500F02682 /* Foundation.framework */,
+				CF31E4F621CB9F9500F02682 /* UIKit.framework */,
+				CF31E4F421CB9F8E00F02682 /* CoreData.framework */,
 				2B38E6F9F0F58FD0D965E7E7 /* Pods_Quiz.framework */,
 				8A6729F4842251900AB3023A /* Pods_QuizTests.framework */,
 				833515EF46935607A226FFBB /* Pods_QuizUITests.framework */,
@@ -120,6 +138,15 @@
 				4F329230A617A977DC63290F /* Pods-QuizUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF31E4D921CB854900F02682 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CF31E4DC21CB858B00F02682 /* Detail.storyboard */,
+				CF31E4DE21CB85BB00F02682 /* DetailVC.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		CFBD4BB421CA03F900B3249A = {
@@ -154,6 +181,7 @@
 				CFBD4BCF21CA03FB00B3249A /* Info.plist */,
 				CF7D68E821CA2D0E0057E5F3 /* GoogleService-Info.plist */,
 				CFBD4BC721CA03F900B3249A /* Quiz.xcdatamodeld */,
+				CFABA47621CBA493008EDE11 /* db */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -184,6 +212,7 @@
 				CFBD4BF321CA072500B3249A /* Profile */,
 				CFBD4BF421CA073300B3249A /* Club */,
 				CFBD4BF521CA073F00B3249A /* Store */,
+				CF31E4D921CB854900F02682 /* Detail */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -336,9 +365,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFABA47721CBA493008EDE11 /* db in Resources */,
 				CFBD4BCE21CA03FB00B3249A /* LaunchScreen.storyboard in Resources */,
 				CF7D68E921CA2D0E0057E5F3 /* GoogleService-Info.plist in Resources */,
 				CFBD4BCB21CA03FB00B3249A /* Assets.xcassets in Resources */,
+				CF31E4DD21CB858B00F02682 /* Detail.storyboard in Resources */,
 				CFBD4BC621CA03F900B3249A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +445,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Quiz/Pods-Quiz-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -421,6 +453,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +496,7 @@
 				CFBD4BF721CA079500B3249A /* StudyVC.swift in Sources */,
 				CFBD4BFB21CA21B500B3249A /* ClubVC.swift in Sources */,
 				CFBD4BC121CA03F900B3249A /* AppDelegate.swift in Sources */,
+				CF31E4DF21CB85BB00F02682 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

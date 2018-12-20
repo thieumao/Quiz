@@ -9,6 +9,8 @@ target 'Quiz' do
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
 
+  pod 'SQLite.swift', '~> 0.11.5'
+
   target 'QuizTests' do
     inherit! :search_paths
     # Pods for testing
